@@ -53,7 +53,7 @@ python commandline.py --config configs/config.json --input configs/animalsindex.
 
 ###Input Formats
 
-```
+```json
 {
   "iodindex":"animals",
   "freebasequery":[{
