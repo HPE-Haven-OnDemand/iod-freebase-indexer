@@ -51,6 +51,8 @@ The configs directory in the repo contains some input configurations to get you 
 python commandline.py --config configs/config.json --input configs/animalsindex.json
 ```
 
+
+
 ###Input Formats
 
 ```json
@@ -85,7 +87,23 @@ python commandline.py --config configs/config.json --input configs/animalsindex.
    ``` "mid":null,``` is required in all freebasequeries currently as the mid is used for the unique id.
    
 
-####Freebase field conversion
+
+###Example inputs
+
+Categories/Entity Extraction datasets
+* animals.json : extract animal names based on their common aliases or scientific names
+* cars.json : extract car models, filter by brands etc.
+* legalcases.json : extract legal cases 
+* drugs.json : extract drugs based on various denominations
+* celestialobjects.json : planets, asteroids, stars can be extracted
+
+Many of these have a bunch of fields being indexed as well allowing for even more refined extraction as well as the return of useful information on match.
+
+Search Datasets
+* animalstext.json : index the descriptions for every animal on freebase for search and analytics
+
+
+###Freebase field conversion
 
 Full path fields will only keep the final name:    
 ```"/biology/organism_classification/scientific_name": []``` in the freebasequery will result in a field called "scientific_name" to be stored in each idolondemand document.
