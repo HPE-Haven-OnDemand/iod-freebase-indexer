@@ -1,0 +1,20 @@
+{
+  "iodindex": "drugs",
+  "freebasequery": [{
+  "mid": null,
+  "name": null,
+  "/common/topic/alias":[],
+  "type": "/medicine/drug",
+  "mechanism_of_action":[],
+  "canonical_brands":[],
+  "route_of_administration":[],
+  "legal_status":[],
+  "drug_class":[],
+  "physiologic_effect":[],
+  "drugbank":[],
+  "atc_code":[]
+}],
+  "aliasfields": ["alias","drugbank","atc_code","canonical_brands"],
+  "parametricfields": ["route_of_administration", "mechanism_of_action", "canonical_brands","legal_status","drug_class","physiologic_effect"],
+  "type": "categories"
+}

@@ -1,0 +1,19 @@
+{
+  "iodindex":"cars",
+  "freebasequery":[{
+  "name": null,
+  "/common/topic/alias": [],
+  "type": "/automotive/model",
+  "key": {
+    "namespace": "/wikipedia/en_id",
+    "value": null
+  },
+  "mid":null,
+  "make": [],
+  "model_years": [],
+  "automotive_class": []
+}],
+  "aliasfields":["alias"],
+  "parametricfields":["make","automotive_class","model_years"],
+  "type":"categories"
+}

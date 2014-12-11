@@ -1,0 +1,17 @@
+{
+  "iodindex":"celestialobjects",
+  "freebasequery":[{
+    "name": null,
+    "/common/topic/alias": [],
+    "type": "/astronomy/celestial_object",
+    "key": {
+      "namespace": "/wikipedia/en_id",
+      "value": null
+    },
+    "mid":null,
+    "category": []
+  }],
+  "aliasfields":["alias"],
+  "parametricfields":["category"],
+  "type":"categories"
+}

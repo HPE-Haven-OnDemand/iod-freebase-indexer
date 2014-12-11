@@ -1,0 +1,17 @@
+{
+  "iodindex":"animals",
+  "freebasequery":[{
+    "name": null,
+    "mid":null,
+    "/common/topic/alias": [],
+    "type": "/biology/animal",
+    "key": {
+      "namespace": "/wikipedia/en_id",
+      "value": null
+    },
+    "/biology/organism_classification/scientific_name": []
+  }],
+  "aliasfields":["alias","scientific_name"],
+  "parametricfields":[],
+  "type":"categories"
+}

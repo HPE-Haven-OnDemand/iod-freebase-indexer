@@ -1,0 +1,27 @@
+{
+  "iodindex": "legalcases",
+  "freebasequery": [{
+    "mid": null,
+    "defendant:parties": [{
+      "optional": true,
+      "role": "Defendant",
+      "parties": []
+    }],
+    "plaintiff:parties": [{
+      "optional": true,
+      "role": "Plaintiff",
+      "parties": []
+    }],
+    "court": {
+      "name": null,
+      "jurisdiction": null
+    },
+    "/common/topic/alias": [],
+    "type": "/law/legal_case",
+    "subject": [],
+     "name":null
+  }],
+  "aliasfields": ["alias"],
+  "parametricfields": ["subject", "court_name", "court_jurisdiction","plaintiff_parties","defendant_parties"],
+  "type": "categories"
+}
